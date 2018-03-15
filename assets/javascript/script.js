@@ -113,7 +113,7 @@ var initApp = function () {
                 });
 
                 if (count === 0) {
-                    $('#account-details').append("<div id='bio'><img src='" + photoURL + "' alt='Profile Photo'><br>" + displayName + "<br>" + email + "<br></div>");
+                    $('#account-details').append("<div id='bio'><b class='text'>"+displayName+"</b><img src='" + photoURL + "' alt='Profile Photo'><br>" + email + "<br></div>");
                 }
 
                 count = 1;
