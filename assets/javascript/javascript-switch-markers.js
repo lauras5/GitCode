@@ -269,7 +269,16 @@ function initMap() {
                                 "<div id='rating'>Rating: " + object.results[i].rating + "/5 </div>" +
                                 contentString
                             });
-                            
+
+                          
+//                             $("#messagingLink").on("click", function () {
+//                               $("#profilePage").css("display", "none");
+//                               $("#mapSpace").css("display", "none");
+//                               $("#jobsPage").css("display", "none");
+//                               $("#messagePage").css("display", "block");
+//                               $("#contactPage").css("display", "none");
+//                             });
+
                             // add listener to markers
                             marker.addListener('click', function() {
                                 //opens info window on click

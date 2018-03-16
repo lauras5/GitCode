@@ -180,15 +180,3 @@ var initApp = function () {
 // Event listener for when the page is loaded.
 // Runs the initApp to determine if the user is logged in or not
 window.addEventListener('load', initApp);
-
-
-
-
-
-
-
-
-
-
-
-
